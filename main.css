@@ -1,0 +1,100 @@
+/* Write your CSS code in this file */
+
+body {
+  /* width: 200px; */
+  /* margin: 300px 250px; */
+  /* padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  padding-top: 25px;
+  /* font-size: large; */
+  /* display: block; */
+}
+#container {
+  width: 800px;
+  height: 500px;
+  /* padding-right: 50px; */
+  /* padding-left: 50px; */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  /* outline:1px solid  blue; */
+  border: 15px solid dimgrey;
+  border-radius: 20%;
+  background-color: mistyrose;
+}
+#headers h1 {
+  padding-top: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  width: auto;
+  color: dimgrey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36pt;
+}
+.guesses_feedback {
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 14pt;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(20, 163, 211);
+}
+.allButtons{
+  display: inline;
+  
+
+}
+.button{
+  margin-left: 10px;
+  height: 30px;
+  border: 3px solid dimgray;
+  border-radius: 17%;
+  font-weight: bold;
+  color: dimgray;
+
+}
+.button:hover{
+  background-color: transparent;
+  cursor: pointer;
+}
+p {
+  padding-right: auto;
+  padding-left: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 14pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: dimgray;
+}
+#guess-list {
+  padding-left: 20px;
+  display: none;
+  /* list-style: none; */
+}
+
+.guess {
+  color:  dimgray;
+  font-weight: bold;
+  font-size: 17pt;
+  text-align: center;
+  border-radius: 10%;
+  margin: 0 10px;
+  padding: 5px 10px;
+  display: inline;
+  border: 3px solid dimgrey;
+}
+#input-number {
+  border: 3px solid  dimgrey;
+  width: 100px;
+  height: 20px;
+border-radius: 8px;
+  font-size: 10pt;
+  background-color:rgb(239, 239, 239);
+
+
+}
+/* #submit-button:hover {
+  background-color: salmon;
+  color: skyblue;
+} */
